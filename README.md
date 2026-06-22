@@ -1,4 +1,4 @@
-# 📱 Zappies AI WhatsApp Webhook
+# 📱 Whatsapp Meta Webhook Middleware
 
 A lightweight, production-ready Flask middleware designed to bridge Meta’s WhatsApp Business API with AI-powered bot backends.
 
@@ -30,8 +30,8 @@ ACCESS_TOKEN=your_whatsapp_access_token
 ```
 3. 🐳 Running with Docker
 ```bash
-docker build -t whatsapp-webhook .
-docker run -d -p 8000:8000 --env-file .env whatsapp-webhook
+docker build -t whatsapp-meta-webhook-middleware .
+docker run -d -p 8000:8000 --env-file .env whatsapp-meta-webhook-middleware
 ```
 
 ## 🧹 Code Quality
